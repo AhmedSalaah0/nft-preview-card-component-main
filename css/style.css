@@ -159,7 +159,7 @@ p b:hover {
     }
     .parent {
         width: 350px;
-        height: 600px;
+        height: 580px;
         gap:5px;
     }
     .img .main{
@@ -189,6 +189,9 @@ p b:hover {
 
     .curranc p {
         width: 110px;
+    }
+    .attribution {
+        margin-top: 10px;
     }
 
 }
