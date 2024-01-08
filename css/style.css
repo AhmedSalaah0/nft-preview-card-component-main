@@ -152,14 +152,43 @@ p b:hover {
 }
 
 @media only screen and (max-width: 700px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .parent {
         width: 350px;
-        height: 550px;
+        height: 600px;
         gap:5px;
     }
     .img .main{
         width: 300px;
         height: 250px;
+    }
+
+    .over { 
+        background-color: hsl(178, 100%, 50%, 0.5);
+        width: 300px;
+        height: 250px;
+        position: absolute;
+        top: 20px;
+        cursor: zoom-in;
+        left: 25px;
+        border-radius: 5px;
+        display: none;
+        
+    }
+    .img .over img {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 100px;
+        left: 125px;
+    }
+
+    .curranc p {
+        width: 110px;
     }
 
 }
