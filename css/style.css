@@ -3,11 +3,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 
 .parent {
     width: 28%;
     height: 625px;
+    min-height: 320px;
     background-color: hsl(216, 50%, 16%);
     border-radius: 15px;
     display: flex;
@@ -157,11 +159,13 @@ p b:hover {
         justify-content: center;
         align-items: center;
     }
+
     .parent {
         width: 350px;
         height: 580px;
         gap:5px;
     }
+
     .img .main{
         width: 300px;
         height: 250px;
@@ -177,8 +181,8 @@ p b:hover {
         left: 25px;
         border-radius: 5px;
         display: none;
-        
     }
+
     .img .over img {
         width: 50px;
         height: 50px;
